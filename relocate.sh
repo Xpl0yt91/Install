@@ -59,7 +59,7 @@ tee <<-EOF
 ✅ Migration Complete!
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-You have successfully migrated to the /MHA-Team/ project repository.
+You have successfully migrated to the /Xpl0yt91/ project repository.
 Running ptsupdate should now work along with any redeployment of
 traefik, shield, clone and so forth.
 
