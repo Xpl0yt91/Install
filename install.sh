@@ -428,6 +428,7 @@ relocate(){
     sleep 0.5
     cd /opt
     find . -type f -print0 | xargs -0 grep -l -r "$old" |tee /dev/tty | xargs sed -i "s+${old}+${new}+g"
+    echo "Migration Complete"
 }
 ### INSTALLER FUNCTIONS END #####################################################
 #### function layout for order one by one
