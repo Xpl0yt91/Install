@@ -421,13 +421,13 @@ relocate(){
     old=https://github.com/MHA-Team/
     new=https://github.com/Xpl0yt91/
     cd /bin
-    find . -type f -print0 | xargs -0 grep -l -r "$old" |tee /dev/tty | xargs sed -i "s+${old}+${new}+g"
+    find . -type f -print0 | xargs -0 grep -l -r "$old" |tee /dev/tty | xargs sed -i "s+${old}+${new}+g" > /dev/null
     sleep 0.5
     cd /var/plexguide
-    find . -type f -print0 | xargs -0 grep -l -r "$old" |tee /dev/tty | xargs sed -i "s+${old}+${new}+g"
+    find . -type f -print0 | xargs -0 grep -l -r "$old" |tee /dev/tty | xargs sed -i "s+${old}+${new}+g" > /dev/null
     sleep 0.5
     cd /opt
-    find . -type f -print0 | xargs -0 grep -l -r "$old" |tee /dev/tty | xargs sed -i "s+${old}+${new}+g"
+    find . -type f -print0 | xargs -0 grep -l -r "$old" |tee /dev/tty | xargs sed -i "s+${old}+${new}+g" > /dev/null
     echo "Migration Complete"
 }
 ### INSTALLER FUNCTIONS END #####################################################
