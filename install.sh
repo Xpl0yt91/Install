@@ -312,8 +312,8 @@ editionpts() {
     edition=master
     ##fast change the editions
     echo -ne '#######                   (30%)\r'
-    git clone -b $edition --single-branch https://github.com/MHA-Team/Install.git /opt/pgstage 1>/dev/null 2>&1
-    git clone https://github.com/MHA-Team/PTS-Update.git /opt/ptsupdate 1>/dev/null 2>&1
+    git clone -b $edition --single-branch https://github.com/Xpl0yt91/Install.git /opt/pgstage 1>/dev/null 2>&1
+    git clone https://github.com/Xpl0yt91/PTS-Update.git /opt/ptsupdate 1>/dev/null 2>&1
     echo -ne '##########                (40%)\r'
     mkdir -p /var/plexguide/logs
     echo "" >/var/plexguide/server.ports
